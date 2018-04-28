@@ -2,8 +2,6 @@ from __future__ import with_statement
 from fabric.api import *
 from fabric.contrib.console import confirm
 
-# git prepare, commit, and push to master
-
 def git_status():
     local("git status")
 
